@@ -1,0 +1,29 @@
+/* Style tab links */
+.tablink {
+  background-color: rgb(228, 231, 52);
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgb(233, 214, 39);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: whitesmoke;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
